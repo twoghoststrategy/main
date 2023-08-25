@@ -1,0 +1,139 @@
+@import './tw/layers.css';
+@import './tw/mixins.css';
+@import './tw/linkstyles.css';
+@import './tw/type.css';
+@import './tw/spacing.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-sizer {
+    background-size: contain !important;
+    &:hover {
+        background-image: $gradient;
+    }
+}
+.glass {
+    @apply px-10 pb-8 border border-gray-200 rounded-lg shadow-lg py-30 bg-blurred sm:rounded-3xl sm:p-20 bg-clip-padding backdrop-filter backdrop-blur-xl;
+}
+.bg-glass {
+    @apply bg-blurred bg-clip-padding backdrop-filter backdrop-blur-xl;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap');
+
+
+@media only screen and (min-width: 1024px) {
+  :root {
+    /* LAYOUT */
+    --header-height: 4rem;
+    --header-margin: 2rem;
+    --show-element: block;
+  }
+}
+
+:root {
+      /* COLOR PALETTE */
+  /* Primary color */
+  --c-first-lighter-100: #32efd5;
+  --c-first-main: #0da691;
+  --c-first-darker-100: #075349;
+  --c-second-lighter-100: #e8c970;
+  --c-second-main: #dcae28;
+  --c-second-darker-100: #705812;
+  /* Accents color */
+  --c-accent-lighter: #f8f8f8;
+  --c-accent-darker: #080d19;
+  /* TYPOGRAPHY */
+  --f-first: 'Oswald', sans-serif;
+  --f-second: 'Raleway', sans-serif;
+  /* FONT SIZE */
+  /* primary */
+  --fp-xxlarge: 36px;
+  --fp-xlarge: 28px;
+  --fp-large: 24px;
+  --fp-base: 18px;
+  --fp-small: 16px;
+  --fp-smaller: 14px;
+  /* secondary */
+  --fs-bigger: 26px;
+  --fs-big: 24px;
+  --fs-medium: 20px;
+  --fs-regular: 18px;
+  --fs-normal: 16px;
+  --fs-small: 14px;
+  /* FONT WEIGHT */
+  --regular: 400;
+  --semi-bold: 600;
+  --bold: 700;
+  /* THEME */
+  /* Layers - z-index */
+  --layer-negative-z-index: -1;
+  --layer-page-z-index: 1;
+  --layer-dropdown-z-index: 2;
+  --layer-modal-z-index: 3;
+  --layer-popover-z-index: 4;
+  --layer-tooltip-z-index: 5;
+  /* border radius */
+  --border-radius-redonde: 50px;
+  --border-radius-semi: 10px;
+  --border-radius-minor: 2px;
+  /* Box shadow */
+  --box-shadow: 0px 2px 8px var(--c-accent-darker);
+  --box-shadow-lg: 0 10px 15px -3px var(--c-accent-darker);
+  --box-shadow-xl: 0 25px 50px -12px var(--c-accent-darker);
+  /* ANIMATION */
+  /* Duration */
+  --duration-animation-base: 0.2s ease-out;
+  /* LAYOUT */
+  --header-height: 3rem;
+  --header-margin: 1rem;
+  --gutter: 16px;
+  --max-width: 1240px;
+  --show-element: none;
+    --azure-radiance: rgba(0, 153, 255, 1);
+    --licorice: rgba(18, 18, 18, 1);
+    --haiti: rgba(23, 16, 64, 1);
+    --log-cabin: rgba(33, 33, 33, 1);
+    --mine-shaft-2: rgba(45, 47, 51, 1);
+    --mine-shaft: rgba(51, 51, 51, 1);
+    --blue: rgba(51, 102, 255, 1);
+    --ship-gray: rgba(62, 62, 62, 1);
+    --purple-heart: rgba(102, 51, 255, 1);
+    --rock-blue: rgba(152, 180, 208, 1);
+    --rock-blue: rgba(153, 180, 209, 1);
+    --star-dust: rgba(160, 160, 160, 1);
+    --regent-st-blue: rgba(174, 215, 236, 1);
+    --biloba-flower: rgba(183, 163, 254, 1);
+    --botticelli: rgba(204, 217, 232, 1);
+    --link-water: rgba(219, 225, 235, 1);
+    --mystic: rgba(224, 232, 242, 1);
+    --athens-gray: rgba(231, 237, 245, 1);
+    --wild-sand: rgba(242, 244, 246, 1);
+    --white-lilac: rgba(247, 249, 252, 1);
+    --neon-carrot: rgba(254, 148, 60, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xxxxxs: 6px;
+    --font-size-xxxxs: 11px;
+    --font-size-xxxs: 12px;
+    --font-size-xxs: 13px;
+    --font-size-xxs: 14px;
+    --font-size-xs: 15px;
+    --font-size-s: 16px;
+    --font-size-m: 17px;
+    --font-size-m: 48px;
+    --font-size-l: 20px;
+    --font-size-l: 28px;
+    --font-size-xl: 24px;
+    --font-size-xl: 40px;
+    --font-size-xxxl: 30px;
+    --font-size-xxxxxxl: 180px;
+    --font-size-xxxxxxxl: 260px;
+}
+
+
+.px-4 {
+    padding-x: 4px;
+}

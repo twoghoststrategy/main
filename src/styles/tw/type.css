@@ -1,0 +1,138 @@
+.gradienttext {
+    @apply font-extrabold text-transparent bg-clip-text bg-gradient;
+}
+
+.prose a {
+    @apply link link--iocaste;
+}
+
+
+.prose {
+    max-width: 125ch;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.prose strong {
+    color: #ffffff;
+}
+
+.prose-indigo a {
+    color: $purple;
+    transition: 2s all ease-in-out;
+    transform: 2s all ease-in-out;
+
+    &:hover {
+        color: $blue;
+    }
+}
+.bold {
+    font-weight: 700;
+}
+.prose ul > li::before {
+    @apply bg-gradient;
+                    }
+.white-text {
+    color: #ffffff;
+}
+
+.prose blockquote {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #ffffff !important;
+
+  }
+
+.figcaption {
+    @apply merriweather text-sm text-center bg-gray-300;
+}
+
+  .prose blockquote::first-letter {
+    initial-letter: 4;
+    -webkit-initial-letter: 4;
+  }
+
+  .merriweather {
+    font-family:  "Merriweather", sans-serif;
+    }
+
+  .mulish {
+  font-family:  "Mulish", sans-serif;
+  }
+  .montserrat {
+    font-family:  "Montserrat", sans-serif;
+    }
+.h1, .h2, h2, h1 {
+    @apply leading-loose montserrat bold;
+}
+
+p, .p, body, section, .description {
+    @apply mulish;
+}
+
+h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+@apply leading-loose montserrat;
+}
+
+
+.font-size-9xl {
+    font-size: 28em;
+}
+.font-size-3xl {
+    font-size: 3em;
+}
+.font-size-xl {
+    font-size: 1.5em;
+}
+.underline {
+    text-decoration: underline;
+}
+.font-bold {
+    font-weight: 700;
+}
+
+.line-height-normal {
+    line-height: 1em;
+}
+.text-center {
+    text-align: center;
+     align-items: center;
+  justify-content: center;
+}
+
+.line-height-small {
+    line-height: .75em;
+}
+.wavy-underline {
+
+text-decoration: underline;
+
+text-decoration-style: wavy;
+
+text-decoration-offset: 8px;
+}
+
+html {
+    @apply text-white mulish;
+}
+h1, h2, h3, h4, h5, h6 {
+    @apply montserrat;
+
+}
+*::marker {
+    background-image: linear-gradient(
+90deg
+, #6633FF 40.47%, #3366FF 78.75%, #0099FF 105%);
+}
+
+ol li::marker {
+    background-image: linear-gradient(
+90deg
+, #6633FF 40.47%, #3366FF 78.75%, #0099FF 105%);}
+
+.prose ul > li::before {
+    display: none !important;
+}
+
