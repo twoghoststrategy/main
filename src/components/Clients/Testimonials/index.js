@@ -11,7 +11,7 @@
     * - Modification    :
 **/
 import React, { Component } from 'react';
-import dynamic from 'next/dynamic';
+// import dynamic from 'next/dynamic';
 import PartnerSlider from '../Slider';
 import
 Title from "../../Titles/h2";
@@ -24,7 +24,8 @@ import "./testimonials.comp.scss";
 
 
 
-const OwlCarousel = dynamic(import('react-owl-carousel3'));
+// const OwlCarousel = dynamic(import('react-owl-carousel3'));
+import OwlCarousel from 'react-owl-carousel';
 
 const options = {
     loop:true,

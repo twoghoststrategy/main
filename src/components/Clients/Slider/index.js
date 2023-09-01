@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from "gatsby"
 import "./partnerslider.scoped.scss";
-import dynamic from 'next/dynamic';
-const OwlCarousel = dynamic(import('react-owl-carousel3'));
+// import dynamic from 'next/dynamic';
+import OwlCarousel from 'react-owl-carousel';
+// const OwlCarousel = dynamic(import('react-owl-carousel3'));
 
 const options = {
     loop:true,
