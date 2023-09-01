@@ -126,7 +126,7 @@ HeaderNoSidebar.propTypes = {
 }
 
 HeaderNoSidebar.defaultProps = {
-    siteTitle: `OAKwave`,
+    siteTitle: `TWOGHOSTS`,
 }
 
 export default HeaderNoSidebar

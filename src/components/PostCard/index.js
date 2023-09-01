@@ -23,14 +23,14 @@ const PostCard = ({ post }) => {
 
     <div className="max-w-2xl mx-auto overflow-hidden rounded-lg shadow-md wow fadeInLeft glass"  data-wow-delay="300ms"
     data-wow-duration="1000ms">
-    <img className="object-cover w-full h-64" src={post.feature_image} alt={post.title}/>
+    {/* <img className="object-cover w-full h-64" src={post.feature_image} alt={post.title}/> */}
 
     <div className="p-6">
         <div>
-            <span className="text-xs font-medium text-white mulish">                <Tags post={post} visibility="public" autolink={false} />
+            <span className="text-xs font-medium text-white oswald">                <Tags post={post} visibility="public" autolink={false} />
 </span>
-            <Link to={url} className="block mt-2 text-2xl font-semibold text-white montserrat white-text dark:text-white hover:text-blue "><span className="leading-4 tracking-tighter white-text">{post.title}</span></Link>
-            <p className="mt-2 text-sm text-white dark:text-white mulish">{post.excerpt}</p>
+            <Link to={url} className="block mt-2 text-2xl font-semibold text-white raleway white-text dark:text-white hover:text-blue "><span className="leading-4 tracking-tighter white-text">{post.title}</span></Link>
+            <p className="mt-2 text-sm text-white dark:text-white oswald">{post.excerpt}</p>
         </div>
 
         <div className="mt-4">

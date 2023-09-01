@@ -7,8 +7,8 @@ const Contact = () => {
     return (
         <>
 <HubspotForm
-   portalId='8988772'
-   formId='736e5239-cb5c-440c-9dad-ac0775b8fa70'
+   portalId='43657022'
+   formId='0b80c17e-3251-4a9e-a4b3-c5ea4cca157c'
    onSubmit={() => console.log('Submit!')}
    onReady={(form) => console.log('Form ready!')}
    loading={<div>Loading...</div>}

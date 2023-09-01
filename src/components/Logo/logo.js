@@ -6,7 +6,7 @@
     *
     * MODIFICATION LOG
     * - Version         : 1.0.0
-    * - Date            : 02/07/2021
+    * - Date            : 08/31/2023
     * - Author          :
     * - Modification    :
 **/
@@ -22,11 +22,11 @@ function LogoComponent(props) {
         return (
             <>
                 <StaticImage
-                    src="../../images/logo/darkbgwhitelogo.webp"
+                    src="../../images/logo/horizontal_white_twoghosts_logo.svg"
                     alt="White Logo"
                     placeholder="blurred"
                     layout="constrained"
-                    width={200}
+                    width={300}
                     className={`logostandard  ${classes}`}
                 />
             </>
@@ -35,11 +35,11 @@ function LogoComponent(props) {
         return (
             <>
                 <StaticImage
-                    src="../../images/logo/lightbglogo.webp"
+                    src="../../images/logo/horizontal_twoghosts_logo.webp"
                     alt="Black Logo"
                     placeholder="blurred"
                     layout="constrained"
-                    width={200}
+                    width={300}
                     className={`logostandard ${classes}`}
 
                 />
@@ -50,11 +50,11 @@ function LogoComponent(props) {
         return (
             <>
                 <StaticImage
-                    src="../../images/logo/stackedonwhitebg.webp"
+                    src="../../images/logo/stacked_twoghosts_logo.webp"
                     alt="White Logo"
                     placeholder="blurred"
                     layout="constrained"
-                    width={100}
+                    width={200}
                     className={`logostacked ${classes}`}
                 />
             </>
@@ -63,11 +63,11 @@ function LogoComponent(props) {
         return (
             <>
                 <StaticImage
-                    src="../../images/logo/verticalondark.webp"
+                    src="../../images/logo/stacked_white_twoghosts_logo.webp"
                     alt="BlackLogo"
                     placeholder="blurred"
                     layout="constrained"
-                    width={200}
+                    width={300}
                     className={`logostacked ${classes}`}
                 />
             </>
@@ -76,11 +76,11 @@ function LogoComponent(props) {
         return (
             <>
                 <StaticImage
-                    src="../../images/logo/symbol.svg"
+                    src="../../images/logo/symbol_twoghosts_logo.webp"
                     alt="Symbol"
                     placeholder="blurred"
                     layout="constrained"
-                    width={200}
+                    width={300}
                     className={`logosymbol ${classes}`}
                 />
             </>
@@ -89,11 +89,11 @@ function LogoComponent(props) {
         return (
             <>
                 <StaticImage
-                    src="../../images/logo/abbreviation.webp"
+                    src="../../images/logo/abbreviation_twoghosts_logo.webp"
                     alt="Abbreviation"
                     placeholder="blurred"
                     layout="constrained"
-                    width={70}
+                    width={170}
                     className={`logoab ${classes}`}
                 />
             </>
@@ -102,11 +102,11 @@ function LogoComponent(props) {
             return (
                 <>
                     <StaticImage
-                        src="../../images/logo/abbreviation.webp"
+                        src="../../images/logo/abbreviation_white_twoghosts_logo.webp"
                         alt="Abbreviation"
                         placeholder="blurred"
                         layout="constrained"
-                        width={70}
+                        width={170}
                         className={`${classes}`}
                     />
                 </>
@@ -115,7 +115,7 @@ function LogoComponent(props) {
         return (
             <>
                 <StaticImage
-                    src="../../images/logo/stackedonwhitebg.webp"
+                    src="../../images/logo/horizontal_white_twoghosts.svg"
                     alt="Placeholder"
                     placeholder="blurred"
                     layout="constrained"

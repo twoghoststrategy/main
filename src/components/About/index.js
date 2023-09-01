@@ -38,15 +38,15 @@ const About = () => (
                             >
                                 <Title
                                     bgtext="About Us"
-                                    titletext="About OAKwave"
+                                    titletext="About TWOGHOSTS"
                                 />
                             </div>
                             <h4
-                                className="text-2xl subtitle wow fadeInLeft montserrat bold"
+                                className="text-2xl subtitle wow fadeInLeft raleway bold"
                                 data-wow-delay="100ms"
                                 data-wow-duration="500ms"
                             >
-                                            Creative and Brand Growth Consulting
+                                            Creative Marketing and Brand Growth Consulting
                                             Firm
                             </h4>
 

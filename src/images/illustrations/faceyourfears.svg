@@ -166,44 +166,44 @@
 <path d="M654.6 227.868C654.779 227.889 654.738 229.249 654.941 231.257C655.168 233.7 655.667 236.11 656.431 238.442C657.183 240.749 658.288 242.926 659.706 244.895C660.377 245.802 661.127 246.648 661.945 247.425C663.511 249.029 665.364 250.325 667.408 251.245C668.586 251.759 669.808 252.164 671.06 252.457C676.23 253.73 681.713 252.895 681.746 253.293C681.759 253.375 681.435 253.501 680.852 253.658C680.048 253.878 679.229 254.041 678.402 254.145C675.859 254.52 673.274 254.52 670.731 254.145C669.342 253.935 667.977 253.589 666.655 253.113C665.483 252.677 664.357 252.129 663.29 251.476C662.199 250.809 661.179 250.033 660.246 249.158C659.36 248.241 658.564 247.24 657.87 246.169C656.45 243.941 655.408 241.493 654.785 238.924C654.166 236.427 653.901 233.856 653.998 231.285C654.084 229.191 654.447 227.846 654.6 227.868Z" fill="black"/>
 <defs>
 <linearGradient id="paint0_linear" x1="766.518" y1="240.032" x2="959.228" y2="240.032" gradientUnits="userSpaceOnUse">
-<stop offset="0.385417" stop-color="#6633FF"/>
-<stop offset="0.75" stop-color="#3366FF"/>
-<stop offset="1" stop-color="#0099FF"/>
+<stop offset="0.385417" stop-color="#8F6AFA"/>
+<stop offset="0.75" stop-color="#375CDC"/>
+<stop offset="1" stop-color="#0099EE"/>
 </linearGradient>
 <linearGradient id="paint1_linear" x1="741.994" y1="620.093" x2="814.478" y2="620.093" gradientUnits="userSpaceOnUse">
-<stop offset="0.385417" stop-color="#6633FF"/>
-<stop offset="0.75" stop-color="#3366FF"/>
-<stop offset="1" stop-color="#0099FF"/>
+<stop offset="0.385417" stop-color="#8F6AFA"/>
+<stop offset="0.75" stop-color="#375CDC"/>
+<stop offset="1" stop-color="#0099EE"/>
 </linearGradient>
 <linearGradient id="paint2_linear" x1="9" y1="149" x2="318.75" y2="149" gradientUnits="userSpaceOnUse">
-<stop offset="0.385417" stop-color="#6633FF"/>
-<stop offset="0.75" stop-color="#3366FF"/>
-<stop offset="1" stop-color="#0099FF"/>
+<stop offset="0.385417" stop-color="#8F6AFA"/>
+<stop offset="0.75" stop-color="#375CDC"/>
+<stop offset="1" stop-color="#0099EE"/>
 </linearGradient>
 <linearGradient id="paint3_linear" x1="159.598" y1="593.577" x2="257.339" y2="593.577" gradientUnits="userSpaceOnUse">
-<stop offset="0.385417" stop-color="#6633FF"/>
-<stop offset="0.75" stop-color="#3366FF"/>
-<stop offset="1" stop-color="#0099FF"/>
+<stop offset="0.385417" stop-color="#8F6AFA"/>
+<stop offset="0.75" stop-color="#375CDC"/>
+<stop offset="1" stop-color="#0099EE"/>
 </linearGradient>
 <linearGradient id="paint4_linear" x1="712.908" y1="108.7" x2="933.458" y2="108.7" gradientUnits="userSpaceOnUse">
-<stop offset="0.385417" stop-color="#6633FF"/>
-<stop offset="0.75" stop-color="#3366FF"/>
-<stop offset="1" stop-color="#0099FF"/>
+<stop offset="0.385417" stop-color="#8F6AFA"/>
+<stop offset="0.75" stop-color="#375CDC"/>
+<stop offset="1" stop-color="#0099EE"/>
 </linearGradient>
 <linearGradient id="paint5_linear" x1="822.477" y1="244.286" x2="872.203" y2="244.286" gradientUnits="userSpaceOnUse">
-<stop offset="0.385417" stop-color="#6633FF"/>
-<stop offset="0.75" stop-color="#3366FF"/>
-<stop offset="1" stop-color="#0099FF"/>
+<stop offset="0.385417" stop-color="#8F6AFA"/>
+<stop offset="0.75" stop-color="#375CDC"/>
+<stop offset="1" stop-color="#0099EE"/>
 </linearGradient>
 <linearGradient id="paint6_linear" x1="617.096" y1="172.483" x2="807.277" y2="172.483" gradientUnits="userSpaceOnUse">
-<stop offset="0.385417" stop-color="#6633FF"/>
-<stop offset="0.75" stop-color="#3366FF"/>
-<stop offset="1" stop-color="#0099FF"/>
+<stop offset="0.385417" stop-color="#8F6AFA"/>
+<stop offset="0.75" stop-color="#375CDC"/>
+<stop offset="1" stop-color="#0099EE"/>
 </linearGradient>
 <linearGradient id="paint7_linear" x1="641.705" y1="235.735" x2="674.075" y2="235.735" gradientUnits="userSpaceOnUse">
-<stop offset="0.385417" stop-color="#6633FF"/>
-<stop offset="0.75" stop-color="#3366FF"/>
-<stop offset="1" stop-color="#0099FF"/>
+<stop offset="0.385417" stop-color="#8F6AFA"/>
+<stop offset="0.75" stop-color="#375CDC"/>
+<stop offset="1" stop-color="#0099EE"/>
 </linearGradient>
 </defs>
 </svg>

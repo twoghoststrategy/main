@@ -6,7 +6,7 @@
     left: 0%;
     }
     .z-view {
-    border: 1px solid white;  color: white; font-size: .9em; line-height: 20px; font-family: 'Montserrat';
+    border: 1px solid white;  color: white; font-size: .9em; line-height: 20px; font-family: 'Raleway';
     }
 .z-content {
 width: 90%;
@@ -26,7 +26,7 @@ opacity: 1;
 .z-spot {
     border: solid 3px transparent;
 
-font-weight: 300;  background-image: linear-gradient(90deg, #292929 2.11%, #000000 104.85%); font-size: 16px; color: white; font-family: 'Mulish';
+font-weight: 300;  background-image: linear-gradient(90deg, #292929 2.11%, #000000 104.85%); font-size: 16px; color: white; font-family: 'Oswald';
 }
 .rounded-corners-gradient-borders{
 border: solid 3px transparent;
@@ -36,7 +36,7 @@ border: solid 3px transparent;
     height: 100%;
     top: 0;
     left: 0;
-    background-image: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+    background-image: linear-gradient(90deg, #8F6AFA 18.59%, #375CDC 68.36%, #0099EE 105%);
 
   }
 
@@ -67,7 +67,7 @@ border: solid 3px transparent;
         z-index: 9 !important;
         margin: -$border; /* !importanté */
         border-radius: inherit; /* !importanté */
-        background: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%) !important;
+        background: linear-gradient(90deg, #8F6AFA 18.59%, #375CDC 68.36%, #0099EE 105%) !important;
       }
 
     }
@@ -81,5 +81,5 @@ border: solid 3px transparent;
         z-index: 9 !important;
         margin: -3px; /* !importanté */
         border-radius: inherit; /* !importanté */
-        background: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%) !important;
+        background: linear-gradient(90deg, #8F6AFA 18.59%, #375CDC 68.36%, #0099EE 105%) !important;
     }

@@ -51,7 +51,7 @@ const About = () => (
                                         data-wow-duration="1000ms"
                                     >
 
-                                          About OAKwave
+                                          About TWOGHOSTS
                                         <span className="bg">About Us</span>
                                     </h3>
                                     <h4

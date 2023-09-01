@@ -58,22 +58,22 @@
     font-family:  "Merriweather", sans-serif;
     }
 
-  .mulish {
-  font-family:  "Mulish", sans-serif;
+  .oswald {
+  font-family:  "Raleway", sans-serif;
   }
-  .montserrat {
-    font-family:  "Montserrat", sans-serif;
+  .raleway {
+    font-family:  "Oswald", sans-serif;
     }
 .h1, .h2, h2, h1 {
-    @apply leading-loose montserrat bold;
+    @apply leading-loose raleway bold;
 }
 
 p, .p, body, section, .description {
-    @apply mulish;
+    @apply oswald;
 }
 
 h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-@apply leading-loose montserrat;
+@apply leading-loose raleway;
 }
 
 
@@ -115,22 +115,22 @@ text-decoration-offset: 8px;
 }
 
 html {
-    @apply text-white mulish;
+    @apply text-white oswald;
 }
 h1, h2, h3, h4, h5, h6 {
-    @apply montserrat;
+    @apply raleway;
 
 }
 *::marker {
     background-image: linear-gradient(
 90deg
-, #6633FF 40.47%, #3366FF 78.75%, #0099FF 105%);
+, #8F6AFA 40.47%, #375CDC 78.75%, #0099EE 105%);
 }
 
 ol li::marker {
     background-image: linear-gradient(
 90deg
-, #6633FF 40.47%, #3366FF 78.75%, #0099FF 105%);}
+, #8F6AFA 40.47%, #375CDC 78.75%, #0099EE 105%);}
 
 .prose ul > li::before {
     display: none !important;

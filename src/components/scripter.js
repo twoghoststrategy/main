@@ -5,8 +5,8 @@ const scripter =
 `
 const one =
     template: \`
-    <z-view style="border-color: #8F6AFA; font-family: 'Montserrat', sans-serif; font-weight: bold; color: #ffffff; border-width: 1px; background-image: linear-gradient(90deg, #292929 2.11%, #000000 104.85%)">
-    OAKwave Strategic Growth Model
+    <z-view style="border-color: #8F6AFA; font-family: 'Raleway', sans-serif; font-weight: bold; color: #ffffff; border-width: 1px; background-image: linear-gradient(90deg, #292929 2.11%, #000000 104.85%)">
+    TWOGHOSTS Strategic Growth Model
         <z-spot
           slot="extension"
           :angle="0"

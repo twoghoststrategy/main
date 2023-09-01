@@ -1,4 +1,4 @@
-$gradient: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+$gradient: linear-gradient(90deg, #8F6AFA 18.59%, #375CDC 68.36%, #0099EE 105%);
 $purple-gradient: linear-gradient(180deg, #32255B 0%, #2B2A36 100%);
 $black-gradient: linear-gradient(90deg, #292929 2.11%, #000000 104.85%);
 
@@ -52,7 +52,7 @@ $black-gradient: linear-gradient(90deg, #292929 2.11%, #000000 104.85%);
 
 
 @supports (font-variation-settings: normal) {
-  body { font-family: "Montserrat", sans-serif; }
+  body { font-family: "Raleway", sans-serif; }
 }
 
 h2, h3, p, ul { margin: 0; }

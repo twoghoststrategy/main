@@ -55,8 +55,8 @@ import Title from "../Titles/h2"
                        <div className={`w-full p-50 ${feature.class}`}>{feature.icon}</div>
                         </span>
                       </div>
-                      <h3 className="mt-8 text-5xl tracking-tight text-white font-heaviest montserrat">{feature.name}</h3>
-                      <p className="mt-5 text-base text-gray-50 mulish">
+                      <h3 className="mt-8 text-5xl tracking-tight text-white font-heaviest raleway">{feature.name}</h3>
+                      <p className="mt-5 text-base text-gray-50 oswald">
                       {feature.description}                      </p>
                     </div>
                   </div>

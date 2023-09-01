@@ -4,7 +4,7 @@
     min-height: 200px;
     height: min-content;
     border-radius: 15px;
-    font-family: "Mulish", serif;
+    font-family: "Oswald", serif;
 font-size: 1em;
     padding: 10px;
   }
@@ -13,7 +13,7 @@ font-size: 1em;
     display: flex;
     font-size: 1em;
     padding: 30px;
-    font-family: "Mulish", serif;
+    font-family: "Oswald", serif;
     color: #bbb;
 
     align-items: center;
@@ -53,9 +53,9 @@ font-size: 1em;
     color: #ffffff;
     background: linear-gradient(
       90deg,
-      #6633ff 18.59%,
-      #3366ff 68.36%,
-      #0099ff 105%
+      #8F6AFA 18.59%,
+      #375CDC 68.36%,
+      #0099EE 105%
     );
     border-radius: 15px;
     padding: 5px;
@@ -65,7 +65,7 @@ font-size: 1em;
   }
 
   button:hover {
-    background-color: #6633ff;
+    background-color: #8F6AFA;
   }
 
   button:focus {

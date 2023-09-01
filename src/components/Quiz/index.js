@@ -99,10 +99,10 @@ function Quiz() {
                     titletext="Matchmaker"
                 />
 
-                <p className="text-xl text-white lg:px-28 mulish">With our patented  (by patented, we mean, not patented) eliminate-the-BS client->agency compatibility quiz, you can save so much time and energy.</p>
+                <p className="text-xl text-white lg:px-28 oswald">With our patented  (by patented, we mean, not patented) eliminate-the-BS client->agency compatibility quiz, you can save so much time and energy.</p>
                 <div className="app">
                     {showScore ? (
-                        <div className="score-section"> <div className="italic text-white bg-transparent font-heavy mulish">
+                        <div className="score-section"> <div className="italic text-white bg-transparent font-heavy oswald">
             <p className="text-3xl text-white font-heavy">According to the all-seeing-eye, we are {scorePercent}% compatible</p>
                             <br />
                             <br />

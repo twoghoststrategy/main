@@ -14,7 +14,7 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 
 const Brand = () => {
-    const one = `./clientlogos/IFA-logo.png`
+    const one = `./clientlogos/IFA-Logo.png`
     const two = `./clientlogos/freshworks.png`
     const three = `./clientlogos/valpaklogo.png`
     const four = `./clientlogos/robo-negotiator.png`

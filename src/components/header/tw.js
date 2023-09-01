@@ -1,30 +1,29 @@
 import React from "react"
-
 import { Fragment } from 'react'
-import {
-    faFacebookF,
-    faLinkedinIn,
-    faQuora,
-    faTwitter,
-} from '@fortawesome/free-brands-svg-icons'
-import HubspotForm from 'react-hubspot-form'
+// import {
+//     faFacebookF,
+//     faLinkedinIn,
+//     faQuora,
+//     faTwitter,
+// } from '@fortawesome/free-brands-svg-icons'
+// import HubspotForm from 'react-hubspot-form'
 import Logo from '../Logo/logo.js'
 import Linky from '../Effects/GradientUnderline'
 import Button from '../Buttons/Standard/button'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-    faPaintBrush,
-    faPen,
-    faSpiderWeb,
-    faBullhorn,
-    faCowbell,
-    faNarwhal,
-    faPhone,
-    faBars,
-    faXmark,
-    faHome,
-} from '@fortawesome/pro-thin-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {
+//     faPaintBrush,
+//     faPen,
+//     faSpiderWeb,
+//     faBullhorn,
+//     faCowbell,
+//     faNarwhal,
+//     faPhone,
+//     faBars,
+//     faXmark,
+//     faHome,
+// } from '@fortawesome/pro-thin-svg-icons'
 import { Link } from 'gatsby'
 import { Popover, Transition } from '@headlessui/react'
 import {
@@ -35,17 +34,21 @@ import {
   RefreshIcon,
   ServerIcon,
   ShieldCheckIcon,
+  HomeIcon,
+  MegaphoneIcon,
   XIcon,
+  PencilIcon,
+  PhoneIcon
 } from '@heroicons/react/outline'
 import { ChevronRightIcon, ExternalLinkIcon } from '@heroicons/react/solid'
 
 
 const navigation = [
-    { name: 'Home', href: '/', icon: faHome, current: false },
-    { name: 'About', href: '/about', icon: faBullhorn, current: false },
-    { name: 'Services', href: '/#services', icon: faNarwhal, current: false },
-    { name: 'Blog', href: '/blog', icon: faPen, current: false },
-    { name: 'Contact', href: '/contact', icon: faPhone, current: false },
+    { name: 'Home', href: '/', icon: HomeIcon, current: false },
+    { name: 'About', href: '/about', icon: MegaphoneIcon, current: false },
+    { name: 'Services', href: '/#services', icon: CogIcon, current: false },
+    { name: 'Blog', href: '/blog', icon: PencilIcon, current: false },
+    { name: 'Contact', href: '/contact', icon: PhoneIcon, current: false },
     {
         /*name: 'Resources', href: '#', icon: ChartBarIcon, current: false */
     },
@@ -68,8 +71,8 @@ export default function Nav({children}) {
                     <div className="z-50 flex items-center justify-between flex-none w-full md:w-auto">
                     <Link
                                         href="/"
-                                        aria-label="OAKwave"
-                                        title="OAKwave"
+                                        aria-label="TWOGHOSTS"
+                                        title="TWOGHOSTS"
                                         class=" flex-none  items-center"
                                     >
                                         <Logo
@@ -79,8 +82,8 @@ export default function Nav({children}) {
                                     </Link>{' '}
                                     <Link
                                         href="/"
-                                        aria-label="OAKwave"
-                                        title="OAKwave"
+                                        aria-label="TWOGHOSTS"
+                                        title="TWOGHOSTS"
                                         class=" flex-none  m-6 items-center"
                                     >
                                         {' '}
@@ -132,8 +135,8 @@ export default function Nav({children}) {
                       <div>
                       <Link
                                         href="/"
-                                        aria-label="OAKwave"
-                                        title="OAKwave"
+                                        aria-label="TWOGHOSTS"
+                                        title="TWOGHOSTS"
                                         class="inline-flex items-center m-6"
                                     >
                                         <Logo
@@ -143,8 +146,8 @@ export default function Nav({children}) {
                                     </Link>{' '}
                                     <Link
                                         href="/"
-                                        aria-label="OAKwave"
-                                        title="OAKwave"
+                                        aria-label="TWOGHOSTS"
+                                        title="TWOGHOSTS"
                                         class="inline-flex items-center m-6"
                                     >
                                         {' '}
@@ -167,11 +170,13 @@ export default function Nav({children}) {
                         activeClassName="z-50 text-white hover:text-white"
                         className=""
                     >
-                        <FontAwesomeIcon
+                        {/* <FontAwesomeIcon
                             icon={item.icon}
                             className="inline-block w-12 h-12 mr-3 text-white hover:text-white"
                             aria-hidden="true"
-                        />   </Link>
+                        />    */}
+
+                        </Link>
 
                       <Linky text={item.name} link={item.href} />
                  </div>

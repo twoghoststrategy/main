@@ -151,7 +151,7 @@ const Post = ({ data, location }) => {
                         </article><p></p>
                         <section className="mt-10 load-external-scripts">
                             <DiscussionEmbed
-                                shortname="oakwave"
+                                shortname="t"
                                 config={
                                     {
                                         url: post.url,

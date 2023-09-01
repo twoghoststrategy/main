@@ -118,7 +118,7 @@ export default function Footer() {
                     <div className="grid grid-cols-2 gap-8 xl:col-span-2">
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
-                                <h3 className="text-xl font-bold uppercase text-fill-transparent montserrat text-stroke-white">Solutions</h3>
+                                <h3 className="text-xl font-bold uppercase text-fill-transparent raleway text-stroke-white">Solutions</h3>
                                 <ul className="mt-4 space-y-4">
                                     {navigation.solutions.map(item => (
                                         <li key={item.name}>
@@ -193,7 +193,7 @@ export default function Footer() {
                         ))}
                     </div>
                     <p className="mt-8 text-base text-gray-400 md:mt-0 md:order-1">
-              &copy; 2021 OAKwave, LLC. All rights reserved.
+              &copy; 2021 TWOGHOSTS, LLC. All rights reserved.
                     </p>
                 </div>
             </div>

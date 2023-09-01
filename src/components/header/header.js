@@ -107,7 +107,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-    siteTitle: `OAKwave`,
+    siteTitle: `TWOGHOSTS`,
 }
 
 export default Header

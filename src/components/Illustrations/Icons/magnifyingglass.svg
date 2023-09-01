@@ -10,14 +10,14 @@
 <path d="M16.9722 518.128C15.2749 515.431 16.1735 511.934 18.7692 510.236C19.8674 509.537 21.1653 509.237 22.4632 509.437C24.3601 509.737 26.0573 510.836 27.1555 512.334C28.5532 514.232 28.9526 516.729 27.9542 518.827C25.9575 522.922 18.9689 521.424 16.9722 518.128Z" fill="white"/>
 <defs>
 <linearGradient id="paint0_linear" x1="0.856445" y1="290.979" x2="269.89" y2="290.979" gradientUnits="userSpaceOnUse">
-<stop offset="0.385417" stop-color="#6633FF"/>
-<stop offset="0.75" stop-color="#3366FF"/>
-<stop offset="1" stop-color="#0099FF"/>
+<stop offset="0.385417" stop-color="#8F6AFA"/>
+<stop offset="0.75" stop-color="#375CDC"/>
+<stop offset="1" stop-color="#0099EE"/>
 </linearGradient>
 <linearGradient id="paint1_linear" x1="164.83" y1="0.499512" x2="568.21" y2="0.499512" gradientUnits="userSpaceOnUse">
-<stop offset="0.385417" stop-color="#6633FF"/>
-<stop offset="0.75" stop-color="#3366FF"/>
-<stop offset="1" stop-color="#0099FF"/>
+<stop offset="0.385417" stop-color="#8F6AFA"/>
+<stop offset="0.75" stop-color="#375CDC"/>
+<stop offset="1" stop-color="#0099EE"/>
 </linearGradient>
 </defs>
 </svg>

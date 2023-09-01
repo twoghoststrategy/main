@@ -20,13 +20,13 @@ const Banner = () => (
     <div class="flex flex-wrap overflow-visible px-10">
 
   <div class="w-full lg:mt-20 px-6 xl:mt-20 2xl:mt-20 mb-0 md:mb-10 lg:mb-10 xl:mb-20 2xl:mb-20 mt-0 overflow-hidden order-last sm:order-first md:w-1/2 lg:w-1/2 xl:w-1/2">
-  <Title titletext="We Need To Talk." bgtext="Hi." />
+  <Title titletext="We Need To Talk." bgtext="Hello." />
   <h4
                 className="wow fadeInLeft"
                 data-wow-delay="600ms"
                 data-wow-duration="1000ms"
 
-            ><span className="text-xl font-normal mulish">It's about your branding and creative again...  it's been frightening.</span></h4>
+            ><span className="text-xl font-normal oswald">It's about your marketing and branding again...  it's been frightening.  We're here to fix gigantic marketing messes.</span></h4>
     </div>
 
   <div class="w-full overflow-visible order-first sm:ml---25 sm:order-last md:w-1/2 lg:w-1/2 xl:w-1/2 mb-12 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0">

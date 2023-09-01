@@ -100,7 +100,7 @@ ul {
 .prose blockquote {
     border-left: 5px solid;
     border-image-slice: 1;
-    border-image-source: linear-gradient(180deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+    border-image-source: linear-gradient(180deg, #8F6AFA 18.59%, #375CDC 68.36%, #0099EE 105%);
   }
 .ptb-100 {
     padding-top: 100px;

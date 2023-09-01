@@ -1,10 +1,10 @@
 {
     "development": {
-        "apiUrl": "https://blog.oakwave.com",
-        "contentApiKey": "2c90a741e13ea16e4390cdb820"
+        "apiUrl": "https://two-ghosts.ghost.io",
+        "contentApiKey": "503ec744c6a14a740b962a52f8"
     },
     "production": {
-        "apiUrl": "https://blog.oakwave.com",
-        "contentApiKey": "2c90a741e13ea16e4390cdb820"
+        "apiUrl": "https://two-ghosts.ghost.io",
+        "contentApiKey": "503ec744c6a14a740b962a52f8"
     }
 }

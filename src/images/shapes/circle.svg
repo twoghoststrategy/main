@@ -3,9 +3,9 @@
     <title>Oval</title>
     <defs>
         <linearGradient x1="0%" y1="0%" x2="105%" y2="0%" id="linearGradient-1">
-            <stop stop-color="#6633FF" offset="0%"></stop>
-            <stop stop-color="#3366FF" offset="56.7708%"></stop>
-            <stop stop-color="#0099FF" offset="100%"></stop>
+            <stop stop-color="#8F6AFA" offset="0%"></stop>
+            <stop stop-color="#375CDC" offset="56.7708%"></stop>
+            <stop stop-color="#0099EE" offset="100%"></stop>
         </linearGradient>
         <circle id="path-2" cx="39.5" cy="39.5" r="39.5"></circle>
         <filter x="-4.4%" y="-4.4%" width="115.2%" height="117.7%" filterUnits="objectBoundingBox" id="filter-3">

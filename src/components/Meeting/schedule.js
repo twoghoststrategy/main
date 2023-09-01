@@ -6,7 +6,7 @@ const Schedule = () => {
 
     return (
         <>
-<div className="meetings-iframe-container" data-src="https://meetings.hubspot.com/n18/oakwave-consultation?embed=true"></div>
+<div className="meetings-iframe-container" data-src="https://meetings.hubspot.com/two-ghosts/initial-consultation?embed=true"></div>
 <div
     className="content-body load-external-scripts"
     dangerouslySetInnerHTML={{ __html: null }}

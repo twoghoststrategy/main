@@ -9,9 +9,9 @@
 <path d="M923.417 697.8C921.766 697.682 919.996 697.564 918.344 697.328C915.749 696.856 915.749 700.868 918.344 700.396C919.996 700.042 921.648 700.042 923.417 699.924C924.715 699.806 924.715 697.8 923.417 697.8Z" fill="url(#paint2_linear)"/>
 <defs>
 <linearGradient id="paint0_linear" x1="184.586" y1="216.586" x2="1410.94" y2="216.586" gradientUnits="userSpaceOnUse">
-<stop offset="0.385417" stop-color="#6633FF"/>
-<stop offset="0.75" stop-color="#3366FF"/>
-<stop offset="1" stop-color="#0099FF"/>
+<stop offset="0.385417" stop-color="#8F6AFA"/>
+<stop offset="0.75" stop-color="#375CDC"/>
+<stop offset="1" stop-color="#0099EE"/>
 </linearGradient>
 <linearGradient id="paint1_linear" x1="535.791" y1="567.791" x2="1022.9" y2="567.791" gradientUnits="userSpaceOnUse">
 <stop offset="0.177083" stop-color="#8F6AFA"/>

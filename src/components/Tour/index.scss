@@ -63,7 +63,7 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
     box-sizing: border-box;
     border-width: 0;
     border-style: solid;
-    border-color: #3366FF;
+    border-color: #375CDC;
 }
 *, ::before, ::after {
     box-sizing: border-box;
@@ -221,7 +221,7 @@ html {
     box-sizing: border-box;
     border-width: 0;
     border-style: solid;
-    border-color: #3366FF;
+    border-color: #375CDC;
 }
 *, ::before, ::after {
     box-sizing: border-box;
@@ -230,7 +230,7 @@ html {
     box-sizing: border-box;
     border-width: 0;
     border-style: solid;
-    border-color: #3366FF;
+    border-color: #375CDC;
 }
 *, ::before, ::after {
     box-sizing: border-box;
@@ -1044,7 +1044,7 @@ span a {
     min-width: 400px;
     width: 60%;
     max-width: 450px;
-    border: 2px solid #6633FF;
+    border: 2px solid #8F6AFA;
     text-align: middle;
   }
   .btn-flashy:last-child {
@@ -1061,7 +1061,7 @@ span a {
     left: 0;
     width: 0;
     height: 100%;
-    background: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+    background: linear-gradient(90deg, #8F6AFA 18.59%, #375CDC 68.36%, #0099EE 105%);
     z-index: -1;
     border-radius: 20px;
     transition: all 0.6s ease;
@@ -1079,7 +1079,7 @@ span a {
      top: 0%;
   }
   .btn-flashy:hover {
-    background: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+    background: linear-gradient(90deg, #8F6AFA 18.59%, #375CDC 68.36%, #0099EE 105%);
     border-radius: 20px;
 
   }
@@ -1098,12 +1098,12 @@ span a {
   }
   .btn-flashy:hover::before {
     width: 100%;
-    background: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+    background: linear-gradient(90deg, #8F6AFA 18.59%, #375CDC 68.36%, #0099EE 105%);
     border-radius: 20px;
   }
   .btn-flashy.current {
-    border: 2px solid #6633FF;
-    background: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+    border: 2px solid #8F6AFA;
+    background: linear-gradient(90deg, #8F6AFA 18.59%, #375CDC 68.36%, #0099EE 105%);
     color: #ffffff;
     border-radius: 20px;
 
@@ -1123,7 +1123,7 @@ span a {
   }
   .btn-flashy.current::before {
     width: 100%;
-    background: linear-gradient(90deg, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+    background: linear-gradient(90deg, #8F6AFA 18.59%, #375CDC 68.36%, #0099EE 105%);
     border-radius: 60px 0 0 60px;
   }
   .floater {
@@ -1175,7 +1175,7 @@ width: 250px;
     overflow: hidden;
     z-index: 1;
     max-width: 200px;
-    border: 2px solid #6633FF;
+    border: 2px solid #8F6AFA;
     text-align: center;
 }
 
@@ -1189,7 +1189,7 @@ width: 250px;
     height: 100%;
     background: linear-gradient(
 90deg
-, #6633FF 18.59%, #3366FF 68.36%, #0099FF 105%);
+, #8F6AFA 18.59%, #375CDC 68.36%, #0099EE 105%);
     z-index: -1;
     border-radius: 20px;
     transition: all 0.6s ease;

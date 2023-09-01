@@ -12,7 +12,7 @@
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Rectangle" transform="translate(-1.000000, -1.000000)">
             <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-            <use fill="#0099FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <use fill="#0099EE" fill-rule="evenodd" xlink:href="#path-1"></use>
         </g>
     </g>
 </svg>
