@@ -156,6 +156,7 @@
         "tailwindcss-filters": "^3.0.0",
         "tailwindcss-fluid-container": "^4.0.0",
         "twin.macro": "^2.6.2",
+        "url": "^0.11.1",
         "util": "^0.12.4",
         "web-component-essentials": "^0.0.4",
         "wowjs": "^1.1.3"
