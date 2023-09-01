@@ -25,8 +25,8 @@ import "./testimonials.comp.scss";
 
 
 // const OwlCarousel = dynamic(import('react-owl-carousel3'));
-import OwlCarousel from 'react-owl-carousel';
-
+import Loadable from '@loadable/component';
+const OwlCarousel = Loadable(() => import('react-owl-carousel3'));
 const options = {
     loop:true,
     nav:false,
@@ -76,7 +76,7 @@ class Testimonials extends Component {
 <>
 <div className="testimonials-area">
   <Title title="Who We Work With" subtitle="The Greatest Folks Ever" body="This is who we work with." />
-                    {this.state.display ? <OwlCarousel
+  {display ?  <OwlCarousel
                     className="client-wrap owl-carousel owl-theme"
                         {...options}
                     >

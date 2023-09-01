@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { Link } from "gatsby"
 import "./partnerslider.scoped.scss";
 // import dynamic from 'next/dynamic';
-import OwlCarousel from 'react-owl-carousel';
 // const OwlCarousel = dynamic(import('react-owl-carousel3'));
+import Loadable from '@loadable/component';
+const OwlCarousel = Loadable(() => import('react-owl-carousel3'));
 
 const options = {
     loop:true,
@@ -53,7 +54,7 @@ class PartnerSlider extends Component {
             <div>
                 <div>
 
-                {this.state.display ? <OwlCarousel
+                {display ?  <OwlCarousel
                     className="brand-wrap owl-carousel owl-theme"
                         {...options}
                     >
