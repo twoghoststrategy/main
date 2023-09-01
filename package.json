@@ -108,7 +108,6 @@
         "javascript-time-ago": "^2.3.8",
         "jshint": "^2.13.0",
         "lodash": "^4.17.21",
-        "next": "^11.0.1",
         "node-compass": "^0.2.4",
         "popper.js": "^1.16.1",
         "postcss": "^8.3.6",
