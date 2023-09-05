@@ -30549,19 +30549,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const GA = `<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159284789-1"></script>
+const GA = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-E36P8RSV9X"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-159284789-1');
-</script>`;
+  gtag('config', 'G-E36P8RSV9X');
+</script>
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/43657022.js"></script>`;
 const iframesrc = `<iframe src="https://app.prospect.io/companies/d749a87c-13af-410a-a09a-6d8dd6825938/tracker?u='+encodeURI(document.location.href)+'&t='+encodeURI(document.title)+'" width="0" height="0" style="display:none;"></iframe>`;
 const Tracking = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     dangerouslySetInnerHTML: {
-      __html: iframesrc
+      __html: GA
     }
   }));
 };
