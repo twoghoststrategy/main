@@ -23,7 +23,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <div dangerouslySetInnerHTML={{ __html: '<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8988772.js"></script>' }}></div>
+        <div dangerouslySetInnerHTML={{ __html: '<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/43657022.js"></script>' }}></div>
       </body>
     </html>
   )
