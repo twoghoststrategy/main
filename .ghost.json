@@ -1,10 +1,10 @@
 {
     "development": {
-        "apiUrl": "https://two-ghosts.ghost.io",
-        "contentApiKey": "503ec744c6a14a740b962a52f8"
+        "apiUrl": "https://two-ghost-strategy.ghost.io",
+        "contentApiKey": "f0c1c7861172d27790c104658b"
     },
     "production": {
-        "apiUrl": "https://two-ghosts.ghost.io",
-        "contentApiKey": "503ec744c6a14a740b962a52f8"
+        "apiUrl": "https://two-ghost-strategy.ghost.io",
+        "contentApiKey": "f0c1c7861172d27790c104658b"
     }
 }
